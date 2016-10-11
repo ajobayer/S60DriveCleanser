@@ -1,0 +1,20 @@
+#ifndef __S60DRIVECLEANSER_HRH__
+#define __S60DRIVECLEANSER_HRH__
+
+#define _UID3 0x20027916
+
+enum TS60DriveCleanserIds
+	{
+	ECommandFullClean = 0x6001, 
+	ECommandPartialClean,
+	EInformFriend,
+	ECommandHelp,
+	ECommandAbout
+	};
+enum TS60DriveCleanser
+	{
+	EWaitDialog = 1,
+	EProgressNoteClean,
+	EProgressNoteFormat
+	};
+#endif 

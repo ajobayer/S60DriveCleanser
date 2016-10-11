@@ -1,0 +1,39 @@
+Release note : version 0.7.0
+
+This release is for Symbian S60 3rd Edition.
+
+Features Covered: 
+The following features have been covered in this build:
+
+1. GUI layout
+2. Option menu
+3. Dynamic drive list display
+4. Icon before each drive name
+5. Drive space information bellow the drive name with viewable move
+6. Confirmation note.
+7. "Partial clean" functionality with progress bar synchronized.
+8. Progress can be canceled.
+9. Confirmation notification before cancel.
+10. Operation complete notification.
+11. Middle key event.
+12. Delete existing file before application launch.
+13. Delete existing file if application is terminated.
+14. Minimum battery level checked.
+15. Interruption handling.
+16. Inform friend menu is implemented.
+17. Help menu is implemented.
+18. About menu is implemented.
+19. View update for insert/remove memory card is removed from this build.
+20. Bug-ID: 05042 resolved.
+
+Note:
+
+1. "Partial clean" will clean the available free space of the selected drive.
+2. Full clean will not work.
+3. After partial clean file name may be seen but that will not work.
+4. Deleted data cannot be recovered.
+5. If memory card is removed during the runtime of application, then 
+   the application will automatically terminate.
+
+
+	
